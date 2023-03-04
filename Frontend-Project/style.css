@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+nav div ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 650;
+}
+
+nav a.router-link-exact-active:hover {
+  background-color: transparent;
+}
+.titleFont {
+  color: rgb(2, 117, 216);
+  font-weight: 500;
+  font-size: 1.5em;
+}
+.subTitleFont {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #3f5a88;
+
+  font-size: 1.5em;
+}
+.boxOfAnchors {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: auto;
+  width: 400px;
+
+  border: 1px solid rgba(100, 100, 111, 0.2) y;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.anchorInBox {
+  text-decoration: none;
+  width: 100%;
+  padding: 20px 0;
+  padding-left: 40px;
+
+  border-bottom: 1px solid rgba(100, 100, 111, 0.2);
+}
+
+.imgOutCard {
+  position: absolute;
+  right: 10px;
+  width: 90px;
+  top: -45px;
+  box-shadow: rgba(2, 117, 216, 0.2) 0px 7px 29px 0px;
+}
+div.card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.acordionBoxes {
+  width: 90%;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+.acordionBoxes:active {
+  border: 1px solid rgb(2, 117, 216);
+}
+
+.privacy {
+  margin-left: 360px;
+}
+
+/* Buttons */
+.loginBtn {
+  box-sizing: border-box;
+  position: relative;
+  margin: 0.2em;
+  padding: 5px 50px;
+  border: none;
+  text-align: left;
+  line-height: 34px;
+  white-space: nowrap;
+  border-radius: 0.1em;
+  font-size: 16px;
+  color: #fff;
+}
+.loginBtn:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 100%;
+}
+.loginBtn:focus {
+  outline: none;
+}
+.loginBtn:active {
+  box-shadow: inset 0 0 0 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Facebook */
+.loginBtnFacebook {
+  background-color: #4c69ba;
+  background-image: linear-gradient(#4c69ba, #3b55a0);
+  text-shadow: 0 -1px 0 #354c8c;
+}
+
+.loginBtnFacebook:hover,
+.loginBtnFacebook:focus {
+  background-color: #5b7bd5;
+  background-image: linear-gradient(#5b7bd5, #4864b1);
+}
+
+/* Twitter */
+.loginBtnTwitter {
+  background-color: #0aceff;
+  background-image: linear-gradient(#0aceff, #0aceff);
+  text-shadow: 0 -1px 0 #354c8c;
+}
+
+.loginBtnTwitter:hover,
+.loginBtnTwitter:focus {
+  background-color: #1ca4ff;
+  background-image: linear-gradient(#1ca4ff, #1ca4ff);
+}
+
+/* Instagram */
+.loginBtnInstagram {
+  background-color: #e40000;
+  background-image: linear-gradient(#e40000, #e40000);
+  text-shadow: 0 -1px 0 #354c8c;
+}
+
+.loginBtnInstagram:hover,
+.loginBtnInstagram:focus {
+  background-color: #ff2828;
+  background-image: linear-gradient(#ff2828, #ff2828);
+}
